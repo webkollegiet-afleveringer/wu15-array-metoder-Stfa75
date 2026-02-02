@@ -33,3 +33,16 @@ console.log(findBagheera) /* der var ikke noget element der hed Bagheera i array
 
 let findSalem = catsArray.find((element) => element === "Salem");
 console.log(findSalem)
+
+/******Opgave 5*****/
+
+let newArray = numbersArray.map ((numbersArray) => numbersArray *3 )
+console.log(newArray)
+
+/******Opgave 6*****/
+
+console.log(dogsArray.join(""))
+
+
+
+
