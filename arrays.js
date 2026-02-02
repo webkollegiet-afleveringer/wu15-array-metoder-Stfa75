@@ -9,3 +9,9 @@ let newNumbers = [numbersArray.filter((element) => element > 20)]
 
 console.log(newNumbers)
 
+/*******Opgave 2******/
+
+let newCat = catsArray.push("sniffels");
+console.log (catsArray); 
+
+/*********Opgave 3 */
