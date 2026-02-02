@@ -23,3 +23,13 @@ console.log(findTrixie) /*Det gjorde det ikke derfor returnerede den False*/
 
 let findBaxter = dogsArray.includes("Baxter") /* Her undersøges om der findes en Baxter*/
 console.log(findBaxter) /* her returnerede den true fordiu den fandt Baxter i sit Array*/
+
+/*********Opgave 4 A*****/
+
+let findBagheera = catsArray.find((element) => element === "Bagheera"); /* Her leder jeg efter navnet Bagheera som text streng*/
+console.log(findBagheera) /* der var ikke noget element der hed Bagheera i arrayet så jeg fik returneret undefined*/
+
+/*********Opgave 4 A*****/
+
+let findSalem = catsArray.find((element) => element === "Salem");
+console.log(findSalem)
