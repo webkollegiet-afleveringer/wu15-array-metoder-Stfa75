@@ -50,5 +50,14 @@ console.log (fruitsArray.indexOf("Mango"))
 /******Opgave 7B*****/
 console.log (fruitsArray.indexOf("blaabaer"))
 
+/******Opgave 8*****/
+dogsArray.splice(3,1)
+console.log(dogsArray)
+
+
+
+
+
+
 
 
