@@ -14,4 +14,12 @@ console.log(newNumbers)
 let newCat = catsArray.push("sniffels");
 console.log (catsArray); 
 
-/*********Opgave 3 */
+/*********Opgave 3A*****/
+
+let findTrixie = dogsArray.includes("Trixie") /* med includes undersøger jeg om arrayet indeholder "trixie"*/
+console.log(findTrixie) /*Det gjorde det ikke derfor returnerede den False*/
+
+/*********Opgave 3B*****/
+
+let findBaxter = dogsArray.includes("Baxter") /* Her undersøges om der findes en Baxter*/
+console.log(findBaxter) /* her returnerede den true fordiu den fandt Baxter i sit Array*/
