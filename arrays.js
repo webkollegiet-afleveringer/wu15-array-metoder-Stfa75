@@ -41,8 +41,11 @@ console.log(newArray)
 
 /******Opgave 6*****/
 
-console.log(dogsArray.join(""))
+console.log(dogsArray.join("")) /*udskriver alt i een lang takststreng**/
 
+/******Opgave 7*****/
+
+console.log (fruitsArray.indexOf("Mango"))
 
 
 
